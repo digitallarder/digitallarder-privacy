@@ -1,9 +1,9 @@
 # Datenschutz – Datenschutzerklärung
 
-> **Masterdatei:** [`DATENSCHUTZ.md` im Repo `crystovh/digitallarder`](https://github.com/crystovh/digitallarder/blob/dev/DATENSCHUTZ.md)
+> **Masterdatei:** [`DATENSCHUTZ.md` im Repo `crystovh/digitallarder-ios`](https://github.com/crystovh/digitallarder-ios/blob/dev/DATENSCHUTZ.md)
 >
 > Dort stehen die verbindlichen Angaben aus App Store Connect. Die Datenschutzerklärung in
-> diesem Repo (`index.html`, veröffentlicht unter https://crystovh.github.io/digital-larder-privacy)
+> diesem Repo (`index.html`, veröffentlicht unter https://crystovh.github.io/digitallarder-privacy)
 > muss **inhaltlich immer zur Masterdatei passen**. Ändert sich dort etwas, wird diese
 > Erklärung nachgezogen und umgekehrt: Eine Änderung hier, die neue Datenverarbeitung
 > beschreibt, erfordert zuerst ein Update der Masterdatei.
