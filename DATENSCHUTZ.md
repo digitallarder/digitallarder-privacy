@@ -1,6 +1,6 @@
 # Datenschutz – Datenschutzerklärung
 
-> **Masterdatei:** [`DATENSCHUTZ.md` im Repo `crystovh/digitallarder-ios`](https://github.com/crystovh/digitallarder-ios/blob/dev/DATENSCHUTZ.md)
+> **Masterdatei:** [`DATENSCHUTZ.md` im Repo `digitallarder/digitallarder-ios`](https://github.com/digitallarder/digitallarder-ios/blob/dev/DATENSCHUTZ.md)
 >
 > Dort stehen die verbindlichen Angaben aus App Store Connect. Die Datenschutzerklärung in
 > diesem Repo (`index.html`, veröffentlicht unter https://crystovh.github.io/digitallarder-privacy)
