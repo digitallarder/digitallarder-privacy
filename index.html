@@ -140,11 +140,11 @@
 </header>
 
 <main>
-    <p class="last-updated">Last updated: 11 October 2026</p>
+    <p class="last-updated">Last updated: 18 October 2026</p>
 
     <div class="highlight">
         <p>
-            Bag is an iOS app for shopping lists, recipes and an AI cooking assistant ("Chef AI").
+            Bag is an iOS app for shopping lists, recipes and an AI assistant for cooking and planning lists ("Bag AI", formerly "Chef AI").
             This policy explains which personal data the app processes, why, who receives it,
             and what rights you have under the General Data Protection Regulation (GDPR).
         </p>
@@ -174,7 +174,7 @@
         </p>
         <p>
             Each account also has a <strong>usage class</strong> (e.g. &ldquo;normal&rdquo;) that determines how many
-            Chef AI requests you can make per hour and per day (see section 2.4).
+            Bag AI requests you can make per hour and per day (see section 2.4).
         </p>
 
         <h3>2.2 Shopping lists</h3>
@@ -209,9 +209,9 @@
             Legal basis: Art. 6(1)(b) GDPR.
         </p>
 
-        <h3>2.4 Chef AI</h3>
+        <h3>2.4 Bag AI</h3>
         <p>
-            When you use Chef AI, the <strong>messages you type</strong>, any <strong>photos you attach</strong>,
+            When you use Bag AI, the <strong>messages you type</strong>, any <strong>photos you attach</strong>,
             and <strong>links to recipe pages</strong> you send are transmitted to our server and forwarded to an
             AI language model to generate an answer. Our server also runs an automated safety check on each
             request (text and images) and blocks requests that violate our usage policy.
@@ -227,10 +227,21 @@
             with the category and reason for blocking.
         </p>
         <p>
-            <strong>Chef AI preferences:</strong> if you set your own rules for Chef AI in the app settings
-            (e.g. &ldquo;always vegetarian&rdquo; or &ldquo;no nuts&rdquo;), the active rules are sent with each Chef AI
+            <strong>Bag AI preferences:</strong> if you set your own rules for Bag AI in the app settings
+            (e.g. &ldquo;always vegetarian&rdquo; or &ldquo;no nuts&rdquo;), the active rules are sent with each Bag AI
             message to our server and the AI language model, and are included in the safety check. They are stored
             only on your device and are <strong>not</strong> stored on our servers.
+        </p>
+        <p>
+            <strong>Lists in Bag AI:</strong> Bag AI can help you plan lists (e.g. a packing list) and suggest
+            changes to your existing lists. With each Bag AI message, the app sends the <strong>names of the lists</strong>
+            you are a member of (and your role in them) to our server and the AI language model. The
+            <strong>content of a list</strong> (categories and items with name, quantity, note and checked state) is only
+            sent for lists you have allowed in that chat (at most five); you can withdraw this at any time. This list
+            information is not stored by us and is not part of the safety check. What Bag AI suggests (a new list or
+            changes) is stored as part of its reply in your chat history and, like all tool calls, appears briefly in our
+            server logs. Nothing is written to your lists until you confirm it in the app. Which lists you allowed in a
+            chat is stored only on your device.
         </p>
         <p>
             <strong>Sync to Bag:</strong> when you add a recipe's missing ingredients to your shopping list, the
@@ -254,12 +265,12 @@
         </p>
         <p>
             <strong>Usage limits:</strong> to keep the service available for everyone and to prevent misuse, our server
-            counts your Chef AI requests (chat messages, recipe imports, Sync to Bag, quick add) per account. The count is kept only
+            counts your Bag AI requests (chat messages, recipe imports, Sync to Bag, quick add) per account. The count is kept only
             in the server's memory for at most 24 hours and is not stored in a database. When you reach a limit, the app
             shows a notice.
         </p>
         <p>
-            Purpose: providing the Chef AI assistant, your conversation history and the category suggestions for Sync to Bag and quick add; preventing misuse of the AI service.<br>
+            Purpose: providing the Bag AI assistant (including planning lists), your conversation history and the category suggestions for Sync to Bag and quick add; preventing misuse of the AI service.<br>
             Legal basis: Art. 6(1)(b) GDPR for the assistant and history; Art. 6(1)(f) GDPR (legitimate interest in preventing misuse and keeping the service available) for the safety check, backup providers and usage limits.
         </p>
 
@@ -276,12 +287,12 @@
         <h3>2.6 Data that stays on your device</h3>
         <p>
             Your app settings (e.g. language) and the shopping-mode Live Activity are stored only on your iPhone
-            and are not sent to our servers. Your Chef AI preferences are also stored only on your iPhone; they are
-            sent with each Chef AI message as described in section 2.4, but not stored by us. Deleting the app removes
+            and are not sent to our servers. Your Bag AI preferences are also stored only on your iPhone; they are
+            sent with each Bag AI message as described in section 2.4, but not stored by us. Deleting the app removes
             this data.
         </p>
         <p>
-            Camera access is only used when you choose to take a photo for Chef AI. The app contains no advertising,
+            Camera access is only used when you choose to take a photo for Bag AI. The app contains no advertising,
             tracking or analytics SDKs.
         </p>
     </section>
@@ -301,7 +312,7 @@
             <tr>
                 <td>Hetzner Online GmbH</td>
                 <td>Hosting of our backend server</td>
-                <td>Chef AI requests, technical data</td>
+                <td>Bag AI requests, technical data</td>
                 <td>Germany</td>
             </tr>
             <tr>
@@ -313,7 +324,7 @@
             <tr>
                 <td>Groq, Inc.</td>
                 <td>AI language model and safety check</td>
-                <td>Chef AI messages, attached photos, recent conversation context, your Chef AI preferences; for Sync to Bag: ingredient names/amounts and shopping-list category names; for quick add: the text you typed and shopping-list category names</td>
+                <td>Bag AI messages, attached photos, recent conversation context, your Bag AI preferences, the names of your lists and the content of lists you allowed in a chat; for Sync to Bag: ingredient names/amounts and shopping-list category names; for quick add: the text you typed and shopping-list category names</td>
                 <td>USA</td>
             </tr>
             <tr>
@@ -330,7 +341,7 @@
             </tr>
             <tr>
                 <td>Nebius</td>
-                <td>Backup AI language model (Chef AI text chat), via Requesty</td>
+                <td>Backup AI language model (Bag AI text chat), via Requesty</td>
                 <td>As for Groq</td>
                 <td>Netherlands</td>
             </tr>
@@ -362,8 +373,8 @@
             <li><strong>Account and shopping lists</strong> — until you delete them or your account.</li>
             <li><strong>Recipe library</strong> — until you delete recipes or categories in the app, or your account.</li>
             <li><strong>Chat history</strong> — until you delete individual conversations or all conversations in the app, or your account.</li>
-            <li><strong>Photos sent to Chef AI</strong> — not stored; processed only for that request.</li>
-            <li><strong>Usage counts for Chef AI limits</strong> — only in the server's memory, for at most 24 hours.</li>
+            <li><strong>Photos sent to Bag AI</strong> — not stored; processed only for that request.</li>
+            <li><strong>Usage counts for Bag AI limits</strong> — only in the server's memory, for at most 24 hours.</li>
             <li><strong>Server logs</strong> — kept only as long as needed for security and troubleshooting, then deleted.</li>
         </ul>
         <p style="margin-top: 12px;">
@@ -376,16 +387,27 @@
     </section>
 
     <section>
-        <h2>5. Automated Decisions</h2>
+        <h2>5. AI-Generated Content</h2>
+        <p>
+            Answers from Bag AI are generated automatically and can be wrong or incomplete. This applies in particular
+            to recipes, quantities, cooking times, lists, allergens and food safety. Please check every answer before you
+            use it. You are responsible for how you use the answers. Lists created or changed with Bag AI are only
+            suggestions and may be missing items. We provide Bag AI without any guarantee that its answers are
+            correct, complete or suitable for your purpose; this does not limit any liability that cannot be excluded by law.
+        </p>
+    </section>
+
+    <section>
+        <h2>6. Automated Decisions</h2>
         <p>
             The safety check described in section 2.4 automatically blocks requests that violate our usage policy.
-            It only affects whether Chef AI answers a message and has no legal or similarly significant effect on you.
+            It only affects whether Bag AI answers a message and has no legal or similarly significant effect on you.
             We do not carry out profiling.
         </p>
     </section>
 
     <section>
-        <h2>6. Security</h2>
+        <h2>7. Security</h2>
         <ul>
             <li>All connections between the app and our servers are encrypted (HTTPS/TLS).</li>
             <li>Authentication tokens are stored in the iOS Keychain.</li>
@@ -394,14 +416,14 @@
     </section>
 
     <section>
-        <h2>7. Children</h2>
+        <h2>8. Children</h2>
         <p>
             Bag is not directed at children under 16. We do not knowingly process data of children under 16.
         </p>
     </section>
 
     <section>
-        <h2>8. Changes to This Policy</h2>
+        <h2>9. Changes to This Policy</h2>
         <p>
             We may update this policy when the app changes. The "Last updated" date at the top of this page
             shows the current version.
